@@ -1,0 +1,42 @@
+<!--
+Sarah Kuczyk
+CIS 440
+Personal Project
+HTML code for buttons
+-->
+
+<!-- Original HTML code block from the OneClickMed auction site -->
+
+<div class="pull-right btn-group btn-breadcrumb" id="core_main_breadcrumbs_right"><a href="http://oneclickmed.com/auctions/add-listing/" class="btn btn-warning addlistingbtn" 
+style="border-radius:0px;">Submit Listing</a>
+					<ul class='socialicons1 list-inline pull-right hidden-xs'><li><a href='https://twitter.com/oneclickmed' class='btn btn-default twitter' rel='nofollow'>
+						<i class='fa fa-twitter'></i>
+						</a></li><li><a href='https://www.facebook.com/OneClickMed' class='btn btn-default facebook' rel='nofollow'>
+						<i class='fa fa-facebook'></i>
+						</a></li><li><a href='https://www.linkedin.com/company/oneclickmed' class='btn btn-default linkedin' rel='nofollow'>
+						<i class='fa fa-linkedin'></i>
+						</a></li><li><a href='https://www.youtube.com/user/OneClickMed' class='btn btn-default youtube' rel='nofollow'>
+						<i class='fa fa-youtube'></i>
+						</a></li><li><a href='http://www.oneclickmed.com/tv-video-channel/' class='btn btn-default rss' rel='nofollow'>
+						<i class='fa fa-rss'></i>
+						</a></li></ul></div></div></div></div>
+
+<!-- Changed code to include two new buttons for registering and logging in -->
+
+<div class="pull-right btn-group btn-breadcrumb" id="core_main_breadcrumbs_right"><a href="http://oneclickmed.com/auctions/wp-login.php?action=register" class="btn btn-warning registerbtn" 
+style="border-radius:0px;">Register</a>
+<div class="pull-right btn-group btn-breadcrumb" id="core_main_breadcrumbs_right"><a href="http://oneclickmed.com/auctions/wp-login.php?action=login" class="btn btn-warning loginbtn" 
+style="border-radius:0px;">Login</a>
+<div class="pull-right btn-group btn-breadcrumb" id="core_main_breadcrumbs_right"><a href="http://oneclickmed.com/auctions/add-listing/" class="btn btn-warning addlistingbtn" 
+style="border-radius:0px;">Submit Listing</a>
+					<ul class='socialicons1 list-inline pull-right hidden-xs'><li><a href='https://twitter.com/oneclickmed' class='btn btn-default twitter' rel='nofollow'>
+						<i class='fa fa-twitter'></i>
+						</a></li><li><a href='https://www.facebook.com/OneClickMed' class='btn btn-default facebook' rel='nofollow'>
+						<i class='fa fa-facebook'></i>
+						</a></li><li><a href='https://www.linkedin.com/company/oneclickmed' class='btn btn-default linkedin' rel='nofollow'>
+						<i class='fa fa-linkedin'></i>
+						</a></li><li><a href='https://www.youtube.com/user/OneClickMed' class='btn btn-default youtube' rel='nofollow'>
+						<i class='fa fa-youtube'></i>
+						</a></li><li><a href='http://www.oneclickmed.com/tv-video-channel/' class='btn btn-default rss' rel='nofollow'>
+						<i class='fa fa-rss'></i>
+						</a></li></ul></div></div></div></div>
