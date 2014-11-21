@@ -1,0 +1,26 @@
+/*
+Sarah Kuczyk
+CIS 440
+Personal Project
+css code for buttons
+*/
+
+/* CSS code for styling the buttons */
+
+#core_main_breadcrumbs_wrapper { margin-top:0px; margin-bottom:10px; border-radius:0px; }
+ 
+.btn-breadcrumb .btn:not(:last-child):after {  content: " ";
+  display: block;  width: 0;  height: 0;  border-top: 17px solid transparent;  border-bottom: 17px solid transparent;  border-left: 10px solid white;  position: absolute;  
+  top: 50%;  margin-top: -17px;  left: 100%;  z-index: 3; }
+.btn-breadcrumb .btn:not(:last-child):before {  content: " ";  display: block;  width: 0;  height: 0;  border-top: 17px solid transparent;  
+border-bottom: 17px solid transparent;  border-left: 10px solid rgb(173, 173, 173);  position: absolute;  top: 50%;  margin-top: -17px;  margin-left: 1px;  left: 100%;  z-index: 3;
+}
+
+.registerbtn { margin-right:10px; padding: 6px 8px 6px 8px !important; }
+.registerbtn:after, .registerbtn:before { content:"" !important; border:0px !important; padding:0px !important; margin:0px !important; }
+
+.loginbtn { margin-right:10px; padding: 6px 8px 6px 8px !important; }
+.loginbtn:after, .loginbtn:before { content:"" !important; border:0px !important; padding:0px !important; margin:0px !important; }
+
+.addlistingbtn { margin-right:10px; padding: 6px 8px 6px 8px !important; }
+.addlistingbtn:after, .addlistingbtn:before { content:"" !important; border:0px !important; padding:0px !important; margin:0px !important; }
